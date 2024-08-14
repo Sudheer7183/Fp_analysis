@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Film Analysis Charts</title>
+</head>
+<body>
+    <h1>Film Analysis Charts</h1>
+    <h2>Genre Distribution</h2>
+    <img src="{% url 'chart_genre_distribution' %}" alt="Genre Distribution">
+    <h2>Language Distribution</h2>
+    <img src="{% url 'chart_language_distribution' %}" alt="Language Distribution">
+    <h2>Runtime Distribution</h2>
+    <img src="{% url 'chart_runtime_distribution' %}" alt="Runtime Distribution">
+    <h2>Runtime Bins</h2>
+    <img src="{% url 'chart_runtime_bins' %}" alt="Runtime Bins">
+    <h2>Rating Distribution</h2>
+    <img src="{% url 'chart_rating_distribution' %}" alt="Rating Distribution">
+    <h2>Seasonal Performance</h2>
+    <img src="{% url 'chart_seasonal_performance' %}" alt="Seasonal Performance">
+    <h2>Monthly Trend</h2>
+    <img src="{% url 'chart_monthly_trend' %}" alt="Monthly Trend">
+</body>
+</html>
